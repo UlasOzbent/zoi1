@@ -272,4 +272,4 @@ def labelled_data():
     return render_template("uploaded.html",list=schedule,username=currentUserName)
 
 if __name__ == '__main__':
-    app.run(port=int(os.environ.get("PORT", 80)),host='127.0.0.1',debug=True)
+    app.run(port=int(os.environ.get("PORT", 8080)),host='0.0.0.0',debug=True)
