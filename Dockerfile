@@ -1,5 +1,8 @@
 FROM python:3.6
 
+ENV PORT 80
+ENV HOST 127.0.0.1
+
 WORKDIR /usr/local/src/app
 
 COPY . .
